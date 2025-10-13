@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "start"
+	group: ""
+	icon: "projecte:transmutation_tablet"
+	id: "663D97D1ADD982C0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Start!"
+}
