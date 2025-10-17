@@ -1,4 +1,16 @@
 minecraft:overworld
-minecraft:the_end
+ad_astra:mercury
+ad_astra:earth_orbit
+ad_astra:mercury_orbit
+ad_astra:glacio
+kubejs:flat
+ad_astra:venus_orbit
+ad_astra:glacio_orbit
+ad_astra:moon_orbit
 minecraft:the_nether
+minecraft:the_end
+ad_astra:moon
+ad_astra:venus
+ad_astra:mars_orbit
+ad_astra:mars
 ae2:spatial_storage
