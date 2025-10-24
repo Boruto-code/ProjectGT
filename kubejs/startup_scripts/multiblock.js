@@ -21,7 +21,7 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
         .recipeModifiers((machine, recipe, params, result) => {
             recipe1 = recipe.copy()
             recipe1.duration = 0
-            GTRecipeModifiers.firstParallel(machine, recipe1, 32, false).getFirst()
+            GTRecipeModifiers.fastParallel(machine, recipe1, 32, false).getFirst()
         })
         .recipeType(GTRecipeTypes.FURNACE_RECIPES)
         .pattern(
