@@ -18,7 +18,7 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
     event.create("dark_matter_oven", "multiblock")
         .machine(holder => new $SteamMultiblock(holder, 4))
         .rotationState(RotationState.NON_Y_AXIS)
-        .recipeModifiers((machine, recipe, params, result) => {
+        .recipeModifier((machine, recipe, params, result) => {
             recipe1 = recipe.copy()
             recipe1.duration = 0
             GTRecipeModifiers.fastParallel(machine, recipe1, 32, false).getFirst()
