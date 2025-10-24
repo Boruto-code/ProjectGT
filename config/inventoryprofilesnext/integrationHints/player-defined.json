@@ -10,5 +10,8 @@
                 "top": 27
             }
         }
+    },
+    "com.lowdragmc.lowdraglib.gui.modular.ModularUIGuiContainer": {
+        "ignore": true
     }
 }

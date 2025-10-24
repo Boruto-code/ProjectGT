@@ -7,6 +7,98 @@
 	id: "663D97D1ADD982C0"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			description: ["很不幸，格雷科技的世界承受不住超过上限的科技，区块一个个掉入了虚空。现在只有这里没有掉入虚空，你的目标是从一棵树开始，逐步创造出重建世界的炼金术秘卷。前人为你留下了一片超平坦的空间，你可以在那里发展科技！"]
+			id: "7769703AE9E48E36"
+			rewards: [
+				{
+					id: "621F73341C8E49F4"
+					item: {
+						Count: 1
+						id: "avaritia:infinity_pickaxe"
+						tag: {
+							mode: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "250E0C4962CABEE2"
+					item: "avaritia:infinity_bucket"
+					type: "item"
+				}
+				{
+					id: "1B3AE3ADD07BA19C"
+					item: "projecte:transmutation_tablet"
+					type: "item"
+				}
+			]
+			subtitle: "送你一些以后需要的东西"
+			tasks: [{
+				id: "1B8257C1F729EE76"
+				title: "开始游戏！"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7769703AE9E48E36"]
+			id: "790B2582EE927B37"
+			rewards: [
+				{
+					command: "/gamerule keepInventory true"
+					id: "654BA2DBF83CE76D"
+					type: "command"
+				}
+				{
+					command: "/gamerule doDaylightCycle false"
+					id: "5DE3DEC83EC385E4"
+					type: "command"
+				}
+				{
+					command: "/gamerule doWeatherCycle false"
+					id: "36296A170CBF3783"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "0D280C8DC50C4F6B"
+				title: "游戏规则"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7769703AE9E48E36"]
+			id: "21971236880ACBDB"
+			rewards: [
+				{
+					id: "77A6DBB8BA0574FB"
+					item: "kubejs:dimensional_teleporter"
+					type: "item"
+				}
+				{
+					id: "56D441C8F88F7D12"
+					item: "gtceu:ulv_world_collector"
+					type: "item"
+				}
+				{
+					id: "429AB250EDC348CF"
+					item: "gtceu:ulv_solar_panel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6FDD5A89D9F4BB78"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+	]
 	title: "Start!"
 }
