@@ -36,6 +36,10 @@ GTCEuStartupEvents.registry("gtceu:machine", event => {
                 .where("#", Predicates.air())
                 .build()
         )
+        .workableCasingModel(
+            "kubejs:block/dark_matter_casing",
+            "kubejs:block/multiblock/dark_matter_steam_oven"
+        )
 
     event.create("matter_forging_machine_mk1", "multiblock")
         .rotationState(RotationState.NON_Y_AXIS)
