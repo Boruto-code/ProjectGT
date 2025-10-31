@@ -1,4 +1,14 @@
 GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
+    // Simple Machine
+    // Out
+    event.create("matter_annihilation")
+        .category("matter_annihilation")
+        .setEUIO("out")
+        .setMaxIOSize(2, 1, 2, 1)
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
+        .setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
+        .setSound(GTSoundEntries.BOILER)
+    // In
     event.create("world_collection")
         .category("world_collection")
         .setEUIO("in")
@@ -14,7 +24,7 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
         )
         .setSound(GTSoundEntries.ARC)
 
-    // Multiblock
+    // Multiblock Machine
     event.create("matter_forge_mk1")
         .category("matter_make")
         .setEUIO("in")

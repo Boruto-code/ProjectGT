@@ -1,5 +1,12 @@
 {
+    "item.kubejs.copper_coin": "铜币",
+    "item.kubejs.iron_coin": "铁币",
+    "item.kubejs.gold_coin": "金币",
+    "item.kubejs.diamond_coin": "钻石币",
+
     "block.gtceu.ulv_world_collector": "基础世界采集器",
+
+    "block.gtceu.dark_matter_oven": "暗物质熔炼炉",
     "block.gtceu.matter_forging_machine_mk1": "物质锻造机 MK1",
     "block.gtceu.matter_forging_machine_mk2": "物质锻造机 MK2",
     "block.gtceu.matter_forging_machine_mk3": "物质锻造机 MK3",
@@ -36,6 +43,12 @@
 
     "block.kubejs.compressed_diamond_block": "压缩钻石块",
     "block.kubejs.dimensional_teleporter": "维度传送器",
+
+    "tagprefix.moon": "月岩%s矿石",
+    "tagprefix.mars": "火星岩%s矿石",
+
+    "gtceu.jei.ore_vein.bauxite_vein_moon": "月球铝土矿脉",
+    "gtceu.jei.ore_vein.beryllium_vein_moon": "月球铍矿脉",
 
     "gtceu.world_collection": "世界采集",
     "gtceu.matter_forge_mk1": "物质锻造 MK1",

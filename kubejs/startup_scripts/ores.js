@@ -1,0 +1,26 @@
+GTCEuStartupEvents.registry("gtceu:world_gen_layer", event => {
+    event.create("moon")
+        .targets("#ad_astra:moon_stone_replaceables")
+        .dimensions("ad_astra:moon")
+
+    event.create("mars")
+        .targets("#ad_astra:mars_stone_replaceables")
+        .dimensions("ad_astra:mars")
+})
+GTCEuStartupEvents.registry("gtceu:tag_prefix", event => {
+    event.create("moon", "ore")
+        .stateSupplier(() => Block.getBlock("ad_astra:moon_stone").defaultBlockState())
+        .baseModelLocation("ad_astra:block/moon_stone")
+        .unificationEnabled(true)
+        .materialIconType(GTMaterialIconType.ore)
+        .generationCondition(ItemGenerationCondition.hasOreProperty)
+        .miningToolTag("forge:mineable/pickaxe")
+    
+    event.create("mars", "ore")
+        .stateSupplier(() => Block.getBlock("ad_astra:mars_stone").defaultBlockState())
+        .baseModelLocation("ad_astra:block/mars_stone")
+        .unificationEnabled(true)
+        .materialIconType(GTMaterialIconType.ore)
+        .generationCondition(ItemGenerationCondition.hasOreProperty)
+        .miningToolTag("forge:mineable/pickaxe")
+})

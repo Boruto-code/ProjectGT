@@ -13,5 +13,17 @@
     },
     "com.lowdragmc.lowdraglib.gui.modular.ModularUIGuiContainer": {
         "ignore": true
+    },
+    "earth.terrarium.adastra.client.screens.PlanetsScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 42
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 27
+            }
+        }
     }
 }

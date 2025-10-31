@@ -90,6 +90,11 @@
 					item: "gtceu:ulv_solar_panel"
 					type: "item"
 				}
+				{
+					id: "1FFE17541F6A5FA8"
+					item: "minecraft:grass_block"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "6FDD5A89D9F4BB78"
@@ -97,6 +102,264 @@
 				type: "item"
 			}]
 			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21971236880ACBDB"]
+			id: "24B24D73C4B8FBA7"
+			rewards: [{
+				count: 10
+				id: "636B389037E22EDA"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1B45D30CD2182C9D"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "3EAFA1447323D0B5"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "2F3AA4AA435F5C40"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "20FB7BA899C6B46A"
+					item: "gtceu:nickel_ingot"
+					type: "item"
+				}
+				{
+					id: "6505DCBA3A47039B"
+					item: "gtceu:tin_ingot"
+					type: "item"
+				}
+				{
+					id: "2F6F63F4F5B89DBB"
+					item: "gtceu:lead_ingot"
+					type: "item"
+				}
+			]
+			title: "基础矿物"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24B24D73C4B8FBA7"]
+			id: "25BA0966BB4DC658"
+			tasks: [
+				{
+					id: "3EAC49EE075DBBD5"
+					item: {
+						Count: 1
+						id: "gtceu:iron_hammer"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								Enchantability: 14
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F9C0D9D74F57DB7"
+					item: {
+						Count: 1
+						id: "gtceu:iron_mortar"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								Enchantability: 14
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03302D017CC01033"
+					item: {
+						Count: 1
+						id: "gtceu:wood_mallet"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								Enchantability: 10
+								MaxDamage: 127
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1560B2FD15AB3E7D"
+					item: {
+						Count: 1
+						id: "gtceu:iron_file"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								Enchantability: 14
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "005BE47BED658AF5"
+					item: {
+						Count: 1
+						id: "gtceu:iron_saw"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								HarvestIce: 1b
+							}
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								Enchantability: 14
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "364FCE327E09F9EB"
+					item: {
+						Count: 1
+						id: "gtceu:iron_wire_cutter"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								Enchantability: 14
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59D1E6599A9CD73E"
+					item: {
+						Count: 1
+						id: "gtceu:iron_screwdriver"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								Enchantability: 14
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AD98A8E5C451BBA"
+					item: {
+						Count: 1
+						id: "gtceu:iron_wrench"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								Mode: 2b
+							}
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								Enchantability: 14
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F9D729EDEF36B64"
+					item: {
+						Count: 1
+						id: "gtceu:iron_knife"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								AttackDamage: 2.0f
+								AttackSpeed: 3.0f
+								DefaultEnchantments: [ ]
+								Enchantability: 14
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "198BF6FCB801EAD3"
+					item: {
+						Count: 1
+						id: "gtceu:iron_crowbar"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								Enchantability: 14
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "基础工具"
+			x: 4.5d
 			y: 0.0d
 		}
 	]
