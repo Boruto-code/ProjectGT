@@ -4,24 +4,22 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
     event.create("matter_annihilation")
         .category("matter_annihilation")
         .setEUIO("out")
-        .setMaxIOSize(2, 1, 2, 1)
-        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
-        .setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
+        .setMaxIOSize(1, 0, 0, 0)
+        .setProgressBar(GuiTextures.PROGRESS_BAR_GAS_COLLECTOR, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.BOILER)
     // In
+    event.create("metamorphosis")
+        .category("metamorphosis")
+        .setEUIO("in")
+        .setMaxIOSize(2, 1, 1, 1)
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
+        .setSound(GTSoundEntries.BOILER)
+
     event.create("world_collection")
         .category("world_collection")
         .setEUIO("in")
         .setMaxIOSize(2, 12, 1, 0)
-        .setProgressBar(
-            GuiTextures.PROGRESS_BAR_ARROW,
-            FillDirection.LEFT_TO_RIGHT
-        )
-        .setSlotOverlay(
-            false,
-            false,
-            GuiTextures.SOLIDIFIER_OVERLAY
-        )
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.ARC)
 
     // Multiblock Machine
@@ -29,254 +27,118 @@ GTCEuStartupEvents.registry("gtceu:recipe_type", event => {
         .category("matter_make")
         .setEUIO("in")
         .setMaxIOSize(6, 1, 2, 0)
-        .setProgressBar(
-            GuiTextures.PROGRESS_BAR_ARROW,
-            FillDirection.LEFT_TO_RIGHT
-        )
-        .setSlotOverlay(
-            false,
-            false,
-            GuiTextures.SOLIDIFIER_OVERLAY
-        )
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.MIXER)
     
     event.create("matter_forge_mk2")
         .category("matter_make")
         .setEUIO("in")
         .setMaxIOSize(6, 1, 2, 0)
-        .setProgressBar(
-            GuiTextures.PROGRESS_BAR_ARROW,
-            FillDirection.LEFT_TO_RIGHT
-        )
-        .setSlotOverlay(
-            false,
-            false,
-            GuiTextures.SOLIDIFIER_OVERLAY
-        )
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.MIXER)
     
     event.create("matter_forge_mk3")
         .category("matter_make")
         .setEUIO("in")
         .setMaxIOSize(6, 1, 2, 0)
-        .setProgressBar(
-            GuiTextures.PROGRESS_BAR_ARROW,
-            FillDirection.LEFT_TO_RIGHT
-        )
-        .setSlotOverlay(
-            false,
-            false,
-            GuiTextures.SOLIDIFIER_OVERLAY
-        )
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.MIXER)
     
     event.create("matter_forge_mk4")
         .category("matter_make")
         .setEUIO("in")
         .setMaxIOSize(6, 1, 2, 0)
-        .setProgressBar(
-            GuiTextures.PROGRESS_BAR_ARROW,
-            FillDirection.LEFT_TO_RIGHT
-        )
-        .setSlotOverlay(
-            false,
-            false,
-            GuiTextures.SOLIDIFIER_OVERLAY
-        )
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.MIXER)
 
     event.create("matter_forge_mk5")
         .category("matter_make")
         .setEUIO("in")
         .setMaxIOSize(6, 1, 2, 0)
-        .setProgressBar(
-            GuiTextures.PROGRESS_BAR_ARROW,
-            FillDirection.LEFT_TO_RIGHT
-        )
-        .setSlotOverlay(
-            false,
-            false,
-            GuiTextures.SOLIDIFIER_OVERLAY
-        )
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.MIXER)
     
     event.create("matter_forge_mk6")
         .category("matter_make")
         .setEUIO("in")
         .setMaxIOSize(6, 1, 2, 0)
-        .setProgressBar(
-            GuiTextures.PROGRESS_BAR_ARROW,
-            FillDirection.LEFT_TO_RIGHT
-        )
-        .setSlotOverlay(
-            false,
-            false,
-            GuiTextures.SOLIDIFIER_OVERLAY
-        )
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.MIXER)
     
     event.create("matter_forge_mk7")
         .category("matter_make")
         .setEUIO("in")
         .setMaxIOSize(6, 1, 2, 0)
-        .setProgressBar(
-            GuiTextures.PROGRESS_BAR_ARROW,
-            FillDirection.LEFT_TO_RIGHT
-        )
-        .setSlotOverlay(
-            false,
-            false,
-            GuiTextures.SOLIDIFIER_OVERLAY
-        )
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.MIXER)
     
     event.create("matter_forge_mk8")
         .category("matter_make")
         .setEUIO("in")
         .setMaxIOSize(6, 1, 2, 0)
-        .setProgressBar(
-            GuiTextures.PROGRESS_BAR_ARROW,
-            FillDirection.LEFT_TO_RIGHT
-        )
-        .setSlotOverlay(
-            false,
-            false,
-            GuiTextures.SOLIDIFIER_OVERLAY
-        )
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.MIXER)
     
     event.create("matter_forge_mk9")
         .category("matter_make")
         .setEUIO("in")
         .setMaxIOSize(6, 1, 2, 0)
-        .setProgressBar(
-            GuiTextures.PROGRESS_BAR_ARROW,
-            FillDirection.LEFT_TO_RIGHT
-        )
-        .setSlotOverlay(
-            false,
-            false,
-            GuiTextures.SOLIDIFIER_OVERLAY
-        )
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.MIXER)
     
     event.create("matter_forge_mk10")
         .category("matter_make")
         .setEUIO("in")
         .setMaxIOSize(6, 1, 2, 0)
-        .setProgressBar(
-            GuiTextures.PROGRESS_BAR_ARROW,
-            FillDirection.LEFT_TO_RIGHT
-        )
-        .setSlotOverlay(
-            false,
-            false,
-            GuiTextures.SOLIDIFIER_OVERLAY
-        )
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.MIXER)
     
     event.create("matter_forge_mk11")
         .category("matter_make")
         .setEUIO("in")
         .setMaxIOSize(6, 1, 2, 0)
-        .setProgressBar(
-            GuiTextures.PROGRESS_BAR_ARROW,
-            FillDirection.LEFT_TO_RIGHT
-        )
-        .setSlotOverlay(
-            false,
-            false,
-            GuiTextures.SOLIDIFIER_OVERLAY
-        )
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.MIXER)
     
     event.create("matter_forge_mk12")
         .category("matter_make")
         .setEUIO("in")
         .setMaxIOSize(6, 1, 2, 0)
-        .setProgressBar(
-            GuiTextures.PROGRESS_BAR_ARROW,
-            FillDirection.LEFT_TO_RIGHT
-        )
-        .setSlotOverlay(
-            false,
-            false,
-            GuiTextures.SOLIDIFIER_OVERLAY
-        )
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.MIXER)
 
     event.create("matter_forge_mk13")
         .category("matter_make")
         .setEUIO("in")
         .setMaxIOSize(6, 1, 2, 0)
-        .setProgressBar(
-            GuiTextures.PROGRESS_BAR_ARROW,
-            FillDirection.LEFT_TO_RIGHT
-        )
-        .setSlotOverlay(
-            false,
-            false,
-            GuiTextures.SOLIDIFIER_OVERLAY
-        )
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.MIXER)
     
     event.create("matter_forge_mk14")
         .category("matter_make")
         .setEUIO("in")
         .setMaxIOSize(6, 1, 2, 0)
-        .setProgressBar(
-            GuiTextures.PROGRESS_BAR_ARROW,
-            FillDirection.LEFT_TO_RIGHT
-        )
-        .setSlotOverlay(
-            false,
-            false,
-            GuiTextures.SOLIDIFIER_OVERLAY
-        )
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.MIXER)
     
     event.create("matter_forge_mk15")
         .category("matter_make")
         .setEUIO("in")
         .setMaxIOSize(6, 1, 2, 0)
-        .setProgressBar(
-            GuiTextures.PROGRESS_BAR_ARROW,
-            FillDirection.LEFT_TO_RIGHT
-        )
-        .setSlotOverlay(
-            false,
-            false,
-            GuiTextures.SOLIDIFIER_OVERLAY
-        )
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.MIXER)
     
     event.create("matter_forge_mk16")
         .category("matter_make")
         .setEUIO("in")
         .setMaxIOSize(6, 1, 2, 0)
-        .setProgressBar(
-            GuiTextures.PROGRESS_BAR_ARROW,
-            FillDirection.LEFT_TO_RIGHT
-        )
-        .setSlotOverlay(
-            false,
-            false,
-            GuiTextures.SOLIDIFIER_OVERLAY
-        )
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.MIXER)
 
     event.create("matter_forge_mkinf")
         .category("matter_make")
         .setEUIO("in")
-        .setMaxIOSize(6, 1, 2, 0)
-        .setProgressBar(
-            GuiTextures.PROGRESS_BAR_ARROW,
-            FillDirection.LEFT_TO_RIGHT
-        )
-        .setSlotOverlay(
-            false,
-            false,
-            GuiTextures.SOLIDIFIER_OVERLAY
-        )
+        .setMaxIOSize(12, 1, 2, 0)
+        .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.MIXER)
 })

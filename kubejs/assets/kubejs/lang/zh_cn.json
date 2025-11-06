@@ -4,9 +4,11 @@
     "item.kubejs.gold_coin": "金币",
     "item.kubejs.diamond_coin": "钻石币",
 
+    "block.gtceu.ev_matter_annihilation_machine": "进阶物质湮灭发电机",
+    "block.gtceu.iv_matter_annihilation_machine": "精英物质湮灭发电机",
+    "block.gtceu.luv_matter_annihilation_machine": "精英物质湮灭发电机 II",
     "block.gtceu.ulv_world_collector": "基础世界采集器",
 
-    "block.gtceu.dark_matter_oven": "暗物质熔炼炉",
     "block.gtceu.matter_forging_machine_mk1": "物质锻造机 MK1",
     "block.gtceu.matter_forging_machine_mk2": "物质锻造机 MK2",
     "block.gtceu.matter_forging_machine_mk3": "物质锻造机 MK3",
@@ -50,6 +52,7 @@
     "gtceu.jei.ore_vein.bauxite_vein_moon": "月球铝土矿脉",
     "gtceu.jei.ore_vein.beryllium_vein_moon": "月球铍矿脉",
 
+    "gtceu.matter_annihilation": "物质湮灭",
     "gtceu.world_collection": "世界采集",
     "gtceu.matter_forge_mk1": "物质锻造 MK1",
     "gtceu.matter_forge_mk2": "物质锻造 MK2",

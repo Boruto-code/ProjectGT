@@ -1,0 +1,222 @@
+{
+	id: "3CB3A86D58827CC9"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "gtceu:neutronium_hammer"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						RelocateMinedBlocks: 1b
+						RelocateMobDrops: 1b
+					}
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						Enchantability: 33
+						HarvestLevel: 6
+						MaxDamage: 65534
+						ToolSpeed: 184.0f
+					}
+					HideFlags: 2
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "gtceu:damascus_steel_mortar"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						Enchantability: 33
+						MaxDamage: 1023
+					}
+					HideFlags: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "gtceu:polybenzimidazole_mallet"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						Enchantability: 10
+						MaxDamage: 1023
+					}
+					HideFlags: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "gtceu:neutronium_file"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						RelocateMinedBlocks: 1b
+						RelocateMobDrops: 1b
+					}
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						Enchantability: 33
+						MaxDamage: 65534
+					}
+					HideFlags: 2
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "gtceu:neutronium_saw"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						HarvestIce: 1b
+						RelocateMinedBlocks: 1b
+						RelocateMobDrops: 1b
+					}
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						Enchantability: 33
+						MaxDamage: 65534
+					}
+					HideFlags: 2
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "gtceu:neutronium_wire_cutter"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						RelocateMinedBlocks: 1b
+						RelocateMobDrops: 1b
+					}
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						Enchantability: 33
+						HarvestLevel: 6
+						MaxDamage: 65534
+						ToolSpeed: 184.0f
+					}
+					HideFlags: 2
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "gtceu:neutronium_screwdriver"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						RelocateMinedBlocks: 1b
+						RelocateMobDrops: 1b
+					}
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						Enchantability: 33
+						MaxDamage: 65534
+					}
+					HideFlags: 2
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "gtceu:neutronium_wrench"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						Mode: 2b
+						RelocateMinedBlocks: 1b
+						RelocateMobDrops: 1b
+					}
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						Enchantability: 33
+						HarvestLevel: 6
+						MaxDamage: 65534
+						ToolSpeed: 184.0f
+					}
+					HideFlags: 2
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "gtceu:neutronium_knife"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						RelocateMinedBlocks: 1b
+						RelocateMobDrops: 1b
+					}
+					GT.Tool: {
+						AttackDamage: 100.0f
+						AttackSpeed: 3.5f
+						DefaultEnchantments: [ ]
+						Enchantability: 33
+						MaxDamage: 65534
+					}
+					HideFlags: 2
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "gtceu:neutronium_crowbar"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						RelocateMinedBlocks: 1b
+						RelocateMobDrops: 1b
+					}
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						Enchantability: 33
+						HarvestLevel: 6
+						MaxDamage: 65534
+						ToolSpeed: 184.0f
+					}
+					HideFlags: 2
+					Unbreakable: 1b
+				}
+			}
+		}
+	]
+	title: "自选工具"
+}

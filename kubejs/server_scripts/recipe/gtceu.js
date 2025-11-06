@@ -1,6 +1,18 @@
 ServerEvents.recipes(event => {
     const gtceu = event.recipes.gtceu
 
+    gtceu.matter_annihilation("kubejs:magenta")
+        .itemInputs(Item.of("projectexpansion:magenta_matter", 2))
+        .EUt(-GTValues.VA[GTValues.EV])
+        .duration(200)
+
+    gtceu.metamorphosis("kubejs:steam")
+        .circuit(1)
+        .inputFluids(Fluid.of("minecraft:water", 81000))
+        .outputFluids(Fluid.of("gtceu:steam", 81000))
+        .EUt(GTValues.VA[GTValues.IV])
+        .duration(1)    
+
     gtceu.world_collection("kubejs:overworld_0")
         .notConsumable("minecraft:grass_block")
         .circuit(0)

@@ -33,6 +33,26 @@
 					item: "projecte:transmutation_tablet"
 					type: "item"
 				}
+				{
+					id: "26109B772054B6E8"
+					item: "avaritia:infinity_helmet"
+					type: "item"
+				}
+				{
+					id: "7DEC1F9B87710635"
+					item: "avaritia:infinity_chestplate"
+					type: "item"
+				}
+				{
+					id: "2753E5A409AC492D"
+					item: "avaritia:infinity_pants"
+					type: "item"
+				}
+				{
+					id: "7776A307B3CE9A7D"
+					item: "avaritia:infinity_boots"
+					type: "item"
+				}
 			]
 			subtitle: "送你一些以后需要的东西"
 			tasks: [{
@@ -60,6 +80,11 @@
 				{
 					command: "/gamerule doWeatherCycle false"
 					id: "36296A170CBF3783"
+					type: "command"
+				}
+				{
+					command: "/time set day"
+					id: "25EF9D1C2D596B23"
 					type: "command"
 				}
 			]
@@ -151,7 +176,14 @@
 		}
 		{
 			dependencies: ["24B24D73C4B8FBA7"]
+			description: ["{ \"text\": \"这里是免费工具！\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1FBB3D020005886B\" } }"]
 			id: "25BA0966BB4DC658"
+			rewards: [{
+				count: 10
+				id: "6796F40FDA3231F2"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3EAC49EE075DBBD5"

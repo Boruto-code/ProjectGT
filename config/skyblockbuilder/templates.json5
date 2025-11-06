@@ -50,8 +50,8 @@
   // The list of templates being available. The first entry is the default template.
   "templates": [
     {
-      "name": "default",
-      "file": "default.nbt",
+      "name": "skyblock",
+      "file": "skyblock.nbt",
       "spawns": "default",
       "surroundingBlocks": "default",
       "spreads": "default"

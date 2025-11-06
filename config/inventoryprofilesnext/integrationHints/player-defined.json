@@ -12,7 +12,17 @@
         }
     },
     "com.lowdragmc.lowdraglib.gui.modular.ModularUIGuiContainer": {
-        "ignore": true
+        "ignore": true,
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 620,
+                "top": 317
+            },
+            "SETTINGS": {
+                "horizontalOffset": 615,
+                "top": 317
+            }
+        }
     },
     "earth.terrarium.adastra.client.screens.PlanetsScreen": {
         "buttonHints": {
@@ -23,6 +33,31 @@
             "SETTINGS": {
                 "horizontalOffset": 11,
                 "top": 27
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 27
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 42
+            }
+        }
+    },
+    "moze_intel.projecte.gameObjs.gui.GUITransmutation": {
+        "ignore": true,
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 27
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 42
             }
         }
     }

@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "626FFC3C24CF79C7"
+	group: ""
+	icon: "kubejs:gold_coin"
+	id: "626FFC3C24CF79C7"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["25BA0966BB4DC658"]
+		id: "1FBB3D020005886B"
+		rewards: [{
+			exclude_from_claim_all: true
+			id: "327A1044032F74A7"
+			table_id: 4374024850696731849L
+			type: "choice"
+		}]
+		tasks: [{
+			id: "4B5026D5F3917051"
+			title: "免费工具包"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "商店"
+}
