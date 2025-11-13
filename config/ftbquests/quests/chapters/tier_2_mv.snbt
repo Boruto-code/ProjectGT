@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_2_mv"
+	group: "050B17593F47B38F"
+	icon: "gtceu:aluminium_ingot"
+	id: "1DC52555FB660D84"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tier 2: MV-蓝色空间"
+}

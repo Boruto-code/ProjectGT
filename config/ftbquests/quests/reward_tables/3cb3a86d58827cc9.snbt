@@ -217,6 +217,7 @@
 				}
 			}
 		}
+		{ item: "projecte:white_alchemical_bag" }
 	]
 	title: "自选工具"
 }

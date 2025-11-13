@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
         .inputFluids(Fluid.of("minecraft:water", 81000))
         .outputFluids(Fluid.of("gtceu:steam", 81000))
         .EUt(GTValues.VA[GTValues.IV])
-        .duration(1)    
+        .duration(1)
 
     gtceu.world_collection("kubejs:overworld_0")
         .notConsumable("minecraft:grass_block")
@@ -104,6 +104,23 @@ ServerEvents.recipes(event => {
             Item.of("gtceu:raw_tricalcium_phosphate", 8), Item.of("gtceu:raw_pyrochlore", 4))
         .EUt(GTValues.VA[GTValues.ULV])
         .duration(200)
+
+    gtceu.world_collection("kubejs:the_nether_extra_1")
+        .notConsumable("minecraft:grass_block")
+        .circuit(31)
+        .itemOutputs(Item.of("gtceu:raw_sulfur", 12),
+            Item.of("gtceu:raw_pyrite", 8), Item.of("gtceu:raw_sphalerite", 4))
+        .EUt(GTValues.VA[GTValues.ULV])
+        .duration(50)
+
+    gtceu.world_collection("kubejs:overworld_32")
+        .notConsumable("minecraft:grass_block")
+        .circuit(32)
+        .itemOutputs(Item.of("minecraft:stone", 32), Item.of("minecraft:dirt", 32),
+            Item.of("minecraft:sand", 32))
+        .EUt(GTValues.VA[GTValues.ULV])
+        .duration(100)
+
 
 
     gtceu.matter_forge_mk1("kubejs:dark_matter")

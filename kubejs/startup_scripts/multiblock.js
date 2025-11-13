@@ -1,28 +1,27 @@
 GTCEuStartupEvents.registry("gtceu:machine", event => {
     event.create("metamorphosis_machine", "multiblock")
-        .rotationState(RotationState.ALL)
+        .rotationState(RotationState.NON_Y_AXIS)
         .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_NON_PERFECT_SUBTICK])
-        .recipeTypes([
-            GTRecipeTypes.FURNACE_RECIPES, 
-            GTRecipeTypes.VACUUM_RECIPES, 
-            GTRecipeTypes.get("gtceu:metamorphosis")
-        ])
+        .recipeTypes(["gtceu:metamorphosis"])
         .pattern(
             definition => FactoryBlockPattern.start()
-                .aisle("WWWWWWWWWWWWWWW", "WWWWWWWWWWWWWWW", "WWWWWWWWWWWWWWW", "WWWWWWWWWWWWWWW")
-                .aisle("WWWWWWWWWWWWWWW", "WAAAGGBBBGGCCCW", "WAAAGGBBBGGCCCW", "WAAAGGBBBGGCCCW", "WWWWWWWWWWWWWWW")
-                .aisle("WWWWWWWWWWWWWWW", "WAAAGGBBBGGCCCW", "WA#AGGB#BGGC#CW", "WAAAGGBBBGGCCCW", "WWWWWWWWWWWWWWW")
-                .aisle("WWWWWWWWWWWWWWW", "WAAAGGBBBGGCCCW", "WAAAGGBBBGGCCCW", "WAAAGGBBBGGCCCW", "WWWWWWWWWWWWWWW")
-                .aisle("WWWWWWWWWWWWWWW", "WWWWWWW$WWWWWWW", "WWWWWWWWWWWWWWW", "WWWWWWWWWWWWWWW")
-                .where("$", Predicates.controller(Predicates.blocks(definition.get())))
-                .where("#", Predicates.air())
+                .aisle("         ", "         ", "  WWWWW  ", "  WWWWW  ", "  WWWWW  ", "  WWWWW  ", "  WWWWW  ", "         ", "         ")
+                .aisle("         ", "  WWWWW  ", " WSSSSSW ", " WLLLLLW ", " WLLLLLW ", " WLLLLLW ", " WSSSSSW ", "  WWWWW  ", "         ")
+                .aisle("  WWWWW  ", " WSSSSSW ", "WSSSSSSSW", "WLLLLLLLW", "WLLLLLLLW", "WLLLLLLLW", "WSSSSSSSW", " WSSSSSW ", "  WWWWW  ")
+                .aisle("  WWWWW  ", " WSSSSSW ", "WSSSSSSSW", "WLLLLLLLW", "WLLLLLLLW", "WLLLLLLLW", "WSSSSSSSW", " WSSSSSW ", "  WWWWW  ")
+                .aisle("  WWWWW  ", " WSSSSSW ", "WSSSSSSSW", "WLLLLLLLW", "WLLLLLLLW", "WLLLLLLLW", "WSSSSSSSW", " WSSSSSW ", "  WWWWW  ")
+                .aisle("  WWWWW  ", " WSSSSSW ", "WSSSSSSSW", "WLLLLLLLW", "WLLLLLLLW", "WLLLLLLLW", "WSSSSSSSW", " WSSSSSW ", "  WWWWW  ")
+                .aisle("  WWWWW  ", " WSSSSSW ", "WSSSSSSSW", "WLLLLLLLW", "WLLLLLLLW", "WLLLLLLLW", "WSSSSSSSW", " WSSSSSW ", "  WWWWW  ")
+                .aisle("         ", "  WWWWW  ", " WSSSSSW ", " WLLLLLW ", " WLLLLLW ", " WLLLLLW ", " WSSSSSW ", "  WWWWW  ", "         ")
+                .aisle("         ", "         ", "  WWWWW  ", "  WWWWW  ", "  WWCWW  ", "  WWWWW  ", "  WWWWW  ", "         ", "         ")
+                .where("C", Predicates.controller(Predicates.blocks(definition.get())))
                 .where("W", Predicates.blocks("gtceu:robust_machine_casing")
                         .or(Predicates.autoAbilities(definition.getRecipeTypes())))
-                .where("A", Predicates.blocks("gtceu:heatproof_machine_casing"))
-                .where("B", Predicates.blocks("avaritia:crystal_matrix"))
-                .where("C", Predicates.blocks("gtceu:frostproof_machine_casing"))
+                .where("S", Predicates.blocks("avaritia:crystal_matrix"))
+                .where("L", Predicates.blocks("projectexpansion:purple_collector"))
                 .build()
         )
+        .appearanceBlock(GTBlocks.CASING_TUNGSTENSTEEL_ROBUST)
         .workableCasingModel(
             "gtceu:block/casings/solid/machine_casing_robust_tungstensteel",
             "kubejs:block/multiblock/metamorphosis_machine"

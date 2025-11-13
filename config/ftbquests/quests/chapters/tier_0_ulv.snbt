@@ -7,6 +7,55 @@
 	id: "4FF28E41BBE82DE7"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
-	title: "Tier 0: ULV-蒸汽时代"
+	quests: [
+		{
+			dependencies: ["25BA0966BB4DC658"]
+			id: "1952381C48372A9D"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "343B4EF952BD6E6F"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1952381C48372A9D"]
+			id: "0C3283C98B0B5554"
+			rewards: [{
+				count: 5
+				id: "618D80936DB7CC67"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "钻石是耐烧王"
+			tasks: [{
+				id: "44BF17E87933FB73"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1952381C48372A9D"]
+			id: "107F0B2682FFAC0A"
+			rewards: [{
+				count: 5
+				id: "60DF612AD4452964"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58DFDADDA2011A55"
+				item: "gtceu:primitive_pump"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "Tier 0: ULV-青铜时代"
 }

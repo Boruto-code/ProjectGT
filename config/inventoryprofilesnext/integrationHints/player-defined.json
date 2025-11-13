@@ -15,8 +15,8 @@
         "ignore": true,
         "buttonHints": {
             "SHOW_EDITOR": {
-                "horizontalOffset": 620,
-                "top": 317
+                "horizontalOffset": -10,
+                "top": -10
             },
             "SETTINGS": {
                 "horizontalOffset": 615,

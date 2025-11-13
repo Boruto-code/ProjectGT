@@ -9,6 +9,28 @@
 	quest_links: [ ]
 	quests: [{
 		dependencies: ["25BA0966BB4DC658"]
+		icon: {
+			Count: 1
+			id: "gtceu:neutronium_wrench"
+			tag: {
+				Damage: 0
+				DisallowContainerItem: 0b
+				GT.Behaviours: {
+					Mode: 2b
+					RelocateMinedBlocks: 1b
+					RelocateMobDrops: 1b
+				}
+				GT.Tool: {
+					DefaultEnchantments: [ ]
+					Enchantability: 33
+					HarvestLevel: 6
+					MaxDamage: 65534
+					ToolSpeed: 184.0f
+				}
+				HideFlags: 2
+				Unbreakable: 1b
+			}
+		}
 		id: "1FBB3D020005886B"
 		rewards: [{
 			exclude_from_claim_all: true
