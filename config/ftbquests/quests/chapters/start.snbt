@@ -394,6 +394,23 @@
 			x: 4.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["25BA0966BB4DC658"]
+			id: "4590C4BCBE166AFD"
+			rewards: [{
+				count: 3
+				id: "7C42B6E6FD140BD4"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13E38FDB3568DD4D"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
 	]
 	title: "Start!"
 }

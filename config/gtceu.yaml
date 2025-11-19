@@ -27,7 +27,7 @@ recipes:
 
   # Recipes for Buckets, Cauldrons, Hoppers, and Iron Bars require Iron Plates, Rods, and more.
   # Default: true
-  hardIronRecipes: true
+  hardIronRecipes: false
 
   # Whether to make Redstone related recipes harder.
   # Default: false
@@ -43,15 +43,15 @@ recipes:
   hardMiscRecipes: false
 
   # Whether to make Glass related recipes harder. Default: true
-  hardGlassRecipes: true
+  hardGlassRecipes: false
 
   # Whether to nerf the Paper crafting recipe.
   # Default: true
-  nerfPaperCrafting: true
+  nerfPaperCrafting: false
 
   # Recipes for items like Iron Doors, Trapdoors, Anvil require Iron Plates, Rods, and more.
   # Default: true
-  hardAdvancedIronRecipes: true
+  hardAdvancedIronRecipes: false
 
   # Whether to make coloring blocks like Concrete or Glass harder.
   # Default: false
@@ -59,11 +59,11 @@ recipes:
 
   # Whether to remove charcoal smelting recipes from the vanilla furnace.
   # Default: true
-  harderCharcoalRecipe: true
+  harderCharcoalRecipe: false
 
   # Whether to make the Flint and Steel recipe require steel parts.
   # Default: true.
-  flintAndSteelRequireSteel: true
+  flintAndSteelRequireSteel: false
 
   # Whether to remove Vanilla Block Recipes from the Crafting Table.
   # Default: false
@@ -117,10 +117,6 @@ worldgen:
   # Rubber Tree spawn chance (decimal % per chunk)
   # Default: 0.5
   rubberTreeSpawnChance: 0.5
-
-  # Should all Stone Types drop unique Ore Item Blocks?
-  # Default: false (meaning only Stone, Netherrack, and Endstone)
-  allUniqueStoneTypes: false
 
   # Should Sand-like ores fall?
   # This includes gravel, sand, and red sand ores.
@@ -222,6 +218,10 @@ machines:
   # This does nothing if enableCleanroom is false.
   # Default: false
   cleanMultiblocks: false
+
+  # Whether the miner should attempt to replace the block mined with a cobbled version of the ore
+  # Default: true
+  replaceWithCobbleVersion: true
 
   # Block to replace mined ores with in the miner and multiblock miner.
   # Default: minecraft:cobblestone

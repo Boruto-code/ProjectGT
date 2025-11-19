@@ -10,14 +10,16 @@
 	quests: [
 		{
 			dependencies: ["25BA0966BB4DC658"]
+			icon: "gtceu:bronze_ingot"
 			id: "1952381C48372A9D"
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "343B4EF952BD6E6F"
-				item: "gtceu:bronze_ingot"
-				type: "item"
+				id: "702756D9D387E4F4"
+				title: "开始格雷科技！"
+				type: "checkmark"
 			}]
+			title: "ULV"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -36,7 +38,7 @@
 				item: "gtceu:lp_steam_solid_boiler"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: 2.0d
 		}
 		{
@@ -53,8 +55,184 @@
 				item: "gtceu:primitive_pump"
 				type: "item"
 			}]
-			x: 2.0d
+			x: -2.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["1952381C48372A9D"]
+			id: "5EC57436CEC62EA8"
+			rewards: [{
+				count: 5
+				id: "3D4DC59B28CA589E"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "159C914991789E7A"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["21971236880ACBDB"]
+			id: "6AA4C5E0DC493B09"
+			rewards: [{
+				count: 3
+				id: "217615502B486621"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1510D8FB73C2D30D"
+				item: "gtceu:rubber_sapling"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AA4C5E0DC493B09"]
+			id: "27A519CC633F9F94"
+			tasks: [{
+				id: "59B4D6FC79A24E91"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["27A519CC633F9F94"]
+			description: ["这里默认你已经会使用 AE，如果不会可以打开指南（Guide）学习。"]
+			id: "1BD807FD7466DA2B"
+			rewards: [
+				{
+					id: "33B417869A67D3DC"
+					item: "ae2:creative_energy_cell"
+					type: "item"
+				}
+				{
+					id: "10688ED3DF2E7B74"
+					item: "ae2:controller"
+					type: "item"
+				}
+				{
+					id: "6606D765DF8ABF9E"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					id: "02DEE6877080334E"
+					item: {
+						Count: 1
+						id: "ae2_mega_things:item_disk_drive_256m"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5D9C9E73908CE383"
+					item: {
+						Count: 1
+						id: "ae2_mega_things:fluid_disk_drive_256m"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2E7DC563A138445E"
+					item: "ae2:inscriber"
+					type: "item"
+				}
+				{
+					id: "1EE5ADD455458FCA"
+					item: "ae2:charger"
+					type: "item"
+				}
+			]
+			title: "AE两件套"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1BD807FD7466DA2B"
+				"3F30B4A850E4FF6F"
+			]
+			id: "24B5A0D62660119A"
+			rewards: [
+				{
+					id: "715FC750898621AA"
+					item: "expatternprovider:ex_pattern_provider"
+					type: "item"
+				}
+				{
+					id: "3CD219141E842137"
+					item: "expatternprovider:ingredient_buffer"
+					type: "item"
+				}
+				{
+					id: "7495891E086DAC63"
+					item: "ae2:crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "6A679935C5527FA9"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7B1061124764475D"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			title: "自动化，启动！"
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1952381C48372A9D"]
+			id: "27D740FE032319C1"
+			rewards: [{
+				count: 5
+				id: "436F4080B1D30087"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D96973AA55D1122"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["27D740FE032319C1"]
+			id: "7379A23F1AC99859"
+			tasks: [{
+				id: "0388A21BF403B16B"
+				item: "projecte:collector_mk1"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7379A23F1AC99859"]
+			id: "3F30B4A850E4FF6F"
+			tasks: [{
+				id: "53A53B958B390527"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
 		}
 	]
 	title: "Tier 0: ULV-青铜时代"

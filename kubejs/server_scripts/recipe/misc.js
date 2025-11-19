@@ -1,4 +1,5 @@
 ServerEvents.recipes(event => {
+    event.remove({id: "functionalstorage:custom_compacting/glowstone"})
     event.remove({id: "projecte:dark_matter"})
     event.remove({id: "projecte:red_matter"})
     

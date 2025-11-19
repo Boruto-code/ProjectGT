@@ -9,7 +9,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
             GTMaterialFlags.GENERATE_ROD
         )
         .element(GTElements.get("insanitium"))
-        .cableProperties(GTValues.V[GTValues.UIV], 4, 1, false)
+        .cableProperties(GTValues.V[GTValues.UEV], 4, 1, false)
 
     event.create("sunium")
         .fluid().ingot()

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_4_ev"
+	group: "050B17593F47B38F"
+	icon: "gtceu:titanium_ingot"
+	id: "38B001B36C5BD354"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tier 4: EV-猩红地狱"
+}

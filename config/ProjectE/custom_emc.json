@@ -15,6 +15,14 @@
     {
       "item": "gtceu:steel_ingot",
       "emc": 256
+    },
+    {
+      "item": "minecraft:glowstone",
+      "emc": 1536
+    },
+    {
+      "item": "minecraft:diamond_block",
+      "emc": 73728
     }
   ]
 }

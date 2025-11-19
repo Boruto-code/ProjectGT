@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_5_iv"
+	group: "050B17593F47B38F"
+	icon: "gtceu:tungsten_steel_ingot"
+	id: "35A49956D8E70C58"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tier 5: IV-嬗变之星"
+}
