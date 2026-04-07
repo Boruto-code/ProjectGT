@@ -7,19 +7,6 @@
 	id: "206BE0D14F691D0E"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["2D16262B69E79E9E"]
-		icon: "gtceu:steel_ingot"
-		id: "7313E2BE886E16CC"
-		shape: "hexagon"
-		size: 1.5d
-		tasks: [{
-			id: "2B9AA9719AAC139D"
-			title: "LV"
-			type: "checkmark"
-		}]
-		x: -2.5d
-		y: -3.0d
-	}]
+	quests: [ ]
 	title: "Tier 1: LV-钢铁雄心"
 }
