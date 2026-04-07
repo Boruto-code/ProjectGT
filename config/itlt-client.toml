@@ -365,7 +365,7 @@
 		# - "ModpackName v2 based on %mc" = "ModpackName v2 based on Minecraft* 1.19.3"
 		# 
 		# Note: enableCustomWindowTitle must be enabled for this to take effect.
-		customWindowTitleText = "%modpackName - %mc"
+		customWindowTitleText = "Minecraft %mc - %modpackName"
 		# 
 		# Enable this if you want to change the name of the Minecraft window.
 		enableCustomWindowTitle = true

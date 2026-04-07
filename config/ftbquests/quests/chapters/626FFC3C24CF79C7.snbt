@@ -7,44 +7,66 @@
 	id: "626FFC3C24CF79C7"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["25BA0966BB4DC658"]
-		icon: {
-			Count: 1
-			id: "gtceu:neutronium_wrench"
-			tag: {
-				Damage: 0
-				DisallowContainerItem: 0b
-				GT.Behaviours: {
-					Mode: 2b
-					RelocateMinedBlocks: 1b
-					RelocateMobDrops: 1b
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["25BA0966BB4DC658"]
+			icon: {
+				Count: 1
+				id: "gtceu:neutronium_wrench"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						Mode: 2b
+						RelocateMinedBlocks: 1b
+						RelocateMobDrops: 1b
+					}
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						Enchantability: 33
+						HarvestLevel: 6
+						MaxDamage: 65534
+						ToolSpeed: 184.0f
+					}
+					HideFlags: 2
+					Unbreakable: 1b
 				}
-				GT.Tool: {
-					DefaultEnchantments: [ ]
-					Enchantability: 33
-					HarvestLevel: 6
-					MaxDamage: 65534
-					ToolSpeed: 184.0f
-				}
-				HideFlags: 2
-				Unbreakable: 1b
 			}
+			id: "1FBB3D020005886B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "327A1044032F74A7"
+				table_id: 4374024850696731849L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "4B5026D5F3917051"
+				title: "免费工具包"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
-		id: "1FBB3D020005886B"
-		rewards: [{
-			exclude_from_claim_all: true
-			id: "327A1044032F74A7"
-			table_id: 4374024850696731849L
-			type: "choice"
-		}]
-		tasks: [{
-			id: "4B5026D5F3917051"
-			title: "免费工具包"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+		{
+			can_repeat: true
+			dependencies: ["107F0B2682FFAC0A"]
+			icon: "gtceu:sunium_tiny_fluid_pipe"
+			id: "4201E464C4D34CC6"
+			rewards: [{
+				count: 64
+				id: "494638F32D522769"
+				item: "gtceu:sunium_tiny_fluid_pipe"
+				type: "item"
+			}]
+			tasks: [{
+				id: "47A15AA9EADC8A4B"
+				title: "免费管道"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
 	title: "商店"
 }

@@ -23,6 +23,26 @@
     {
       "item": "minecraft:diamond_block",
       "emc": 73728
+    },
+    {
+      "item": "gtceu:electrum_ingot",
+      "emc": 1280
+    },
+    {
+      "item": "gtceu:invar_dust",
+      "emc": 1536
+    },
+    {
+      "item": "gtceu:silver_dust",
+      "emc": 512
+    },
+    {
+      "item": "minecraft:clay",
+      "emc": 64
+    },
+    {
+      "item": "projecte:watch_of_flowing_time",
+      "emc": 568512
     }
   ]
 }

@@ -53,6 +53,11 @@
 					item: "avaritia:infinity_boots"
 					type: "item"
 				}
+				{
+					id: "47FABF1162D3DDE3"
+					item: "projecte:white_alchemical_bag"
+					type: "item"
+				}
 			]
 			subtitle: "送你一些以后需要的东西"
 			tasks: [{
@@ -87,6 +92,11 @@
 					id: "25EF9D1C2D596B23"
 					type: "command"
 				}
+				{
+					command: "/ae2 channelmode infinite"
+					id: "76A215E835BF1DA1"
+					type: "command"
+				}
 			]
 			tasks: [{
 				id: "0D280C8DC50C4F6B"
@@ -116,8 +126,8 @@
 					type: "item"
 				}
 				{
-					id: "1FFE17541F6A5FA8"
-					item: "minecraft:grass_block"
+					id: "7089944755010F49"
+					item: "kubejs:world_fragment_overworld"
 					type: "item"
 				}
 			]
@@ -395,7 +405,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["25BA0966BB4DC658"]
+			dependencies: ["7F0FB7C814604A77"]
 			id: "4590C4BCBE166AFD"
 			rewards: [{
 				count: 3
@@ -406,6 +416,30 @@
 			tasks: [{
 				id: "13E38FDB3568DD4D"
 				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25BA0966BB4DC658"]
+			id: "7F0FB7C814604A77"
+			rewards: [{
+				count: 10
+				id: "0D6E5FDA213BA049"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58192C6E706F1CF6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:philosophers_stone"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 6.0d

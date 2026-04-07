@@ -9,11 +9,17 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["25BA0966BB4DC658"]
+			dependencies: ["4590C4BCBE166AFD"]
 			icon: "gtceu:bronze_ingot"
 			id: "1952381C48372A9D"
+			rewards: [{
+				id: "5F4652BB6BC9F016"
+				item: "gtmthings:advanced_terminal"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "手拿（高级）终端Shift+右键多方块控制器可以快速搭建多方块结构！"
 			tasks: [{
 				id: "702756D9D387E4F4"
 				title: "开始格雷科技！"
@@ -39,7 +45,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1952381C48372A9D"]
@@ -55,7 +61,7 @@
 				item: "gtceu:primitive_pump"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: 0.0d
 		}
 		{
@@ -89,7 +95,7 @@
 				item: "gtceu:rubber_sapling"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
@@ -100,7 +106,7 @@
 				item: "gtceu:sticky_resin"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 6.5d
 			y: 1.5d
 		}
 		{
@@ -155,7 +161,7 @@
 				}
 			]
 			title: "AE两件套"
-			x: 9.0d
+			x: 6.5d
 			y: 3.0d
 		}
 		{
@@ -192,47 +198,53 @@
 				type: "item"
 			}]
 			title: "自动化，启动！"
-			x: 9.0d
+			x: 6.5d
 			y: 4.5d
 		}
 		{
-			dependencies: ["1952381C48372A9D"]
-			id: "27D740FE032319C1"
-			rewards: [{
-				count: 5
-				id: "436F4080B1D30087"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4D96973AA55D1122"
-				item: "gtceu:lp_steam_compressor"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["27D740FE032319C1"]
-			id: "7379A23F1AC99859"
-			tasks: [{
-				id: "0388A21BF403B16B"
-				item: "projecte:collector_mk1"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["7379A23F1AC99859"]
+			dependencies: ["7F0FB7C814604A77"]
 			id: "3F30B4A850E4FF6F"
 			tasks: [{
 				id: "53A53B958B390527"
 				item: "minecraft:glowstone_dust"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 2.0d
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5EC57436CEC62EA8"]
+			id: "25186DEFDB6612E5"
+			rewards: [{
+				count: 3
+				id: "4D94448E4491900F"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "321A59BE204A9239"
+				item: "gtceu:glass_tube"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["25186DEFDB6612E5"]
+			id: "5FCCFA9B01273571"
+			rewards: [{
+				count: 5
+				id: "0D2EA5662840A9CE"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "516ED4F44D0CC15F"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
 		}
 	]
 	title: "Tier 0: ULV-青铜时代"

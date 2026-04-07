@@ -4,6 +4,11 @@ StartupEvents.registry("item", event => {
     event.create("kubejs:gold_coin")
     event.create("kubejs:diamond_coin")
 
+    event.create("kubejs:world_fragment_overworld")
+    event.create("kubejs:world_fragment_nether")
+    event.create("kubejs:world_fragment_moon")
+    event.create("kubejs:world_fragment_mars")
+
     
     const circuits = ["optical", "exotic", "cosmic", "supracausal"]
 
