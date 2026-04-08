@@ -203,6 +203,11 @@
 					item: "ae2:mysterious_cube"
 					type: "item"
 				}
+				{
+					id: "76D2EF8DB984D6F9"
+					item: "projectexpansion:transmutation_interface"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "7B1061124764475D"
