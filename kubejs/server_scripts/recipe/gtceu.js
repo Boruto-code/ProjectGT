@@ -33,7 +33,8 @@ ServerEvents.recipes(event => {
             Item.of("minecraft:oak_sapling", 4), Item.of("minecraft:spruce_sapling", 4), 
             Item.of("minecraft:birch_sapling", 4), Item.of("minecraft:jungle_sapling", 4),
             Item.of("minecraft:acacia_sapling", 4), Item.of("minecraft:dark_oak_sapling", 4),
-            Item.of("minecraft:mangrove_propagule", 4), Item.of("minecraft:cherry_sapling", 4)
+            Item.of("minecraft:mangrove_propagule", 4), Item.of("minecraft:cherry_sapling", 4),
+            Item.of("ae2:sky_stone_block", 16)
         )
         .EUt(GTValues.VA[GTValues.ULV])
         .duration(100)
