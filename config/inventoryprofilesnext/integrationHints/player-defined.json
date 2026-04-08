@@ -96,5 +96,37 @@
                 "top": 27
             }
         }
+    },
+    "moze_intel.projecte.gameObjs.gui.AlchBagScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 27,
+                "bottom": -16
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 4,
+                "top": -16
+            },
+            "SORT": {
+                "horizontalOffset": 4,
+                "top": -16
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 4,
+                "top": -16
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 4,
+                "top": -16
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": -6,
+                "top": 42
+            },
+            "SETTINGS": {
+                "horizontalOffset": 11,
+                "top": 27
+            }
+        }
     }
 }

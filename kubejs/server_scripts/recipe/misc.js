@@ -33,6 +33,12 @@ ServerEvents.recipes(event => {
         ["minecraft:clay_ball", "minecraft:clay_ball", "minecraft:clay_ball", "minecraft:clay_ball"]
     )
 
+    event.shapeless(
+        "minecraft:glowstone_dust",
+        ["projecte:philosophers_stone", "minecraft:redstone", "minecraft:redstone", "minecraft:redstone", 
+            "minecraft:redstone", "minecraft:redstone", "minecraft:redstone"]
+    )
+
     event.shaped(
         Item.of("gtceu:ulv_world_collector", 2), 
         [

@@ -10,6 +10,7 @@
 	quests: [
 		{
 			dependencies: ["4590C4BCBE166AFD"]
+			description: ["Tips: &6注意不要用无尽镐挖机器，不会掉落。请使用扳手！&r"]
 			icon: "gtceu:bronze_ingot"
 			id: "1952381C48372A9D"
 			rewards: [{
@@ -31,6 +32,7 @@
 		}
 		{
 			dependencies: ["1952381C48372A9D"]
+			description: ["&o迈出科技的第一步。&r"]
 			id: "0C3283C98B0B5554"
 			rewards: [{
 				count: 5
@@ -38,7 +40,6 @@
 				item: "kubejs:copper_coin"
 				type: "item"
 			}]
-			subtitle: "钻石是耐烧王"
 			tasks: [{
 				id: "44BF17E87933FB73"
 				item: "gtceu:lp_steam_solid_boiler"
@@ -276,8 +277,18 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["27A519CC633F9F94"]
+			dependencies: [
+				"27A519CC633F9F94"
+				"0EA2C3E3C71D4FA5"
+				"03B10A645FCF8AFE"
+			]
 			id: "4E6E8139E03C4D83"
+			rewards: [{
+				count: 3
+				id: "19D54FF9AA93A0FD"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1C7C8A70D495E7F4"
 				item: "gtceu:rubber_plate"
@@ -411,6 +422,23 @@
 			}]
 			x: 2.25d
 			y: 6.75d
+		}
+		{
+			dependencies: ["1952381C48372A9D"]
+			id: "0EA2C3E3C71D4FA5"
+			rewards: [{
+				count: 3
+				id: "68CF642717AFDA96"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CA15B147D6FE553"
+				item: "gtceu:lp_steam_extractor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
 		}
 	]
 	title: "Tier 0: ULV-青铜时代"

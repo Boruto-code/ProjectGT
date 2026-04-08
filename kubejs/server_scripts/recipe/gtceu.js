@@ -235,8 +235,7 @@ ServerEvents.recipes(event => {
             Item.of("minecraft:deepslate", 32), Item.of("minecraft:netherrack", 32), 
             Item.of("minecraft:basalt", 16), Item.of("minecraft:granite", 16), 
             Item.of("minecraft:diorite", 16), Item.of("minecraft:andesite", 16), 
-            Item.of("gtceu:marble", 16))
-        .chancedOutput("kubejs:world_fragment_overworld", 10, 20)
+            Item.of("gtceu:marble", 16), Item.of("ae2:sky_stone_block", 16))
         .EUt(GTValues.VA[GTValues.ULV])
         .duration(100)
 

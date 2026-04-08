@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "emc"
+	group: "752D14ED0AA9D158"
+	icon: "projectexpansion:final_star"
+	id: "63054ADC1C202AE6"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "7A0E45BD432D7C3A"
+		rewards: [{
+			count: 3
+			id: "5222CFB5FC84AAA1"
+			item: "kubejs:copper_coin"
+			type: "item"
+		}]
+		tasks: [{
+			id: "727E098F827C0B32"
+			item: "projectexpansion:basic_power_flower"
+			type: "item"
+		}]
+		x: 0.5d
+		y: -1.5d
+	}]
+	title: "EMC 生产！"
+}

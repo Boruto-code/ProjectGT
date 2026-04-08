@@ -29,6 +29,7 @@
 					type: "item"
 				}
 				{
+					count: 2
 					id: "1B3AE3ADD07BA19C"
 					item: "projecte:transmutation_tablet"
 					type: "item"
