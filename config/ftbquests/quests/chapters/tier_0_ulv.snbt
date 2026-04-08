@@ -198,6 +198,11 @@
 					item: "ae2:pattern_encoding_terminal"
 					type: "item"
 				}
+				{
+					id: "4CAD37251BE56076"
+					item: "ae2:mysterious_cube"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "7B1061124764475D"
