@@ -1,7 +1,4 @@
 {
-  "gtmthings": {
-    "wireless_energy_hatch_provider": true
-  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -57,19 +54,10 @@
   "entangled": {
     "entangled_block_component": true
   },
-  "projecte": {
-    "emc_provider": true
-  },
-  "projectexpansion": {
-    "provider": true
-  },
   "avaritia": {
     "extreme_smithing": true,
     "crafting_table": true,
     "compressor": true
-  },
-  "pipez": {
-    "pipe": true
   },
   "gtceu": {
     "primitive_pump": true,
@@ -122,5 +110,27 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "gtmthings": {
+    "wireless_energy_hatch_provider": true
+  },
+  "projecte": {
+    "emc_provider": true
+  },
+  "mekanism": {
+    "infuse_type": true,
+    "gas": true,
+    "remove_builtin": true,
+    "pigment": true,
+    "fluid": true,
+    "slurry": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
+  "projectexpansion": {
+    "provider": true
+  },
+  "pipez": {
+    "pipe": true
   }
 }

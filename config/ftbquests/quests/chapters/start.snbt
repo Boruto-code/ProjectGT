@@ -445,6 +445,40 @@
 			x: 6.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["25BA0966BB4DC658"]
+			id: "2D41BF07D691BF9C"
+			rewards: [{
+				count: 5
+				id: "4A5A027182A46B21"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45DADA8DA2D5B114"
+				item: "gtceu:primitive_blast_furnace"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2D41BF07D691BF9C"]
+			id: "03B10A645FCF8AFE"
+			rewards: [{
+				count: 5
+				id: "5A9A7E50E6C15E41"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B51729B4E2D18F0"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
 	]
 	title: "Start!"
 }

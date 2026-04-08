@@ -9,20 +9,56 @@
 
 [CraftingMapper]
 
+	[CraftingMapper.MekElectrolysis]
+		#Maps Mekanism electrolytic separator recipes.
+		enabled = true
+
 	[CraftingMapper.AE2Inscriber]
 		#(AppliedE) Maps Applied Energistics 2 inscriber recipes.
 		enabled = true
 
-	[CraftingMapper.Smithing]
-		#Maps smithing recipes.
+	[CraftingMapper.MekPaintingMachine]
+		#Maps Mekanism painting machine recipes.
+		enabled = true
+
+	[CraftingMapper.MekGasToGas]
+		#Maps Mekanism activating and centrifuging recipes.
 		enabled = true
 
 	[CraftingMapper.AE2Charger]
 		#(AppliedE) Maps Applied Energistics 2 charger recipes.
 		enabled = true
 
-	[CraftingMapper.AE2Transform]
-		#(AppliedE) Maps Applied Energistics 2 in-world transformation recipes.
+	[CraftingMapper.MekItemStackToItemStack]
+		#Maps Mekanism Machine recipes that go from item to item. (Crushing, Enriching, Smelting)
+		enabled = true
+
+	[CraftingMapper.MekSawmill]
+		#Maps Mekanism sawmill recipes. (Disabled by default, due to causing various EMC values to be removed pertaining to charcoal/wood)
+		enabled = false
+
+	[CraftingMapper.MekChemicalInfuser]
+		#Maps Mekanism chemical infuser recipes.
+		enabled = true
+
+	[CraftingMapper.MekCombiner]
+		#Maps Mekanism combiner recipes.
+		enabled = true
+
+	[CraftingMapper.MekFluidToFluid]
+		#Maps Mekanism evaporating recipes.
+		enabled = true
+
+	[CraftingMapper.MekChemicalCrystallizer]
+		#Maps Mekanism crystallizing recipes.
+		enabled = true
+
+	[CraftingMapper.Smithing]
+		#Maps smithing recipes.
+		enabled = true
+
+	[CraftingMapper.MekMetallurgicInfuser]
+		#Maps Mekanism metallurgic infuser recipes.
 		enabled = true
 
 	[CraftingMapper.FallbackRecipeType]
@@ -33,12 +69,52 @@
 		#Maps the different vanilla recipe types.
 		enabled = true
 
+	[CraftingMapper.MekItemStackToInfuseType]
+		#Maps Mekanism item stack to infuse type conversion recipes.
+		enabled = true
+
 	[CraftingMapper."Avaritia Compressor"]
 		#Maps avaritia recipes.
 		enabled = true
 
 	[CraftingMapper."Avaritia Extreme"]
 		#Maps avaritia recipes.
+		enabled = true
+
+	[CraftingMapper.MekRotary]
+		#Maps Mekanism rotary condensentrator recipes.
+		enabled = true
+
+	[CraftingMapper.MekItemStackToPigment]
+		#Maps Mekanism item stack to pigment recipes. (Pigment Extracting)
+		enabled = true
+
+	[CraftingMapper.MekItemStackGasToItemStack]
+		#Maps Mekanism Machine recipes that go from item, gas to item. (Compressing, Purifying, Injecting)
+		enabled = true
+
+	[CraftingMapper.MekDissolution]
+		#Maps Mekanism dissolution recipes.
+		enabled = true
+
+	[CraftingMapper.MekFluidSlurryToSlurry]
+		#Maps Mekanism washing recipes.
+		enabled = true
+
+	[CraftingMapper.MekPressurizedReaction]
+		#Maps Mekanism pressurized reaction recipes.
+		enabled = false
+
+	[CraftingMapper.MekPigmentMixer]
+		#Maps Mekanism pigment mixer recipes.
+		enabled = true
+
+	[CraftingMapper.MekItemStackToGas]
+		#Maps Mekanism item stack to gas recipes. (Gas conversion, Oxidizing)
+		enabled = true
+
+	[CraftingMapper.AE2Transform]
+		#(AppliedE) Maps Applied Energistics 2 in-world transformation recipes.
 		enabled = true
 
 [permissions]

@@ -7,6 +7,13 @@ ServerEvents.recipes(event => {
     event.remove({id: "gtceu:shapeless/dust_bronze"})
     event.remove({id: "gtceu:compressor/clay"})
     event.remove({id: "gtceu:extractor/clay_extraction"})
+    event.remove({id: "mekanismgenerators:generator/heat"})
+    event.remove({id: "mekanismgenerators:generator/wind"})
+    event.remove({id: "mekanismgenerators:generator/bio"})
+    event.remove({id: "mekanismgenerators:generator/gas_burning"})
+    event.remove({id: "mekanismgenerators:solar_panel"})
+    event.remove({id: "mekanismgenerators:turbine/casing"})
+    event.remove({id: "mekanismgenerators:hohlraum"})
     
     event.replaceInput({input: "gtceu:certus_quartz_gem"}, "gtceu:certus_quartz_gem", "ae2:certus_quartz_crystal")
     event.replaceOutput({output: "gtceu:certus_quartz_gem"}, "gtceu:certus_quartz_gem", "ae2:certus_quartz_crystal")

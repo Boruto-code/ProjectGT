@@ -79,7 +79,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["21971236880ACBDB"]
@@ -95,18 +95,24 @@
 				item: "gtceu:rubber_sapling"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6AA4C5E0DC493B09"]
 			id: "27A519CC633F9F94"
+			rewards: [{
+				count: 3
+				id: "17655B87A178AF40"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "59B4D6FC79A24E91"
 				item: "gtceu:sticky_resin"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 1.5d
 		}
 		{
@@ -161,7 +167,7 @@
 				}
 			]
 			title: "AE两件套"
-			x: 6.5d
+			x: 7.5d
 			y: 3.0d
 		}
 		{
@@ -198,18 +204,24 @@
 				type: "item"
 			}]
 			title: "自动化，启动！"
-			x: 6.5d
+			x: 7.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["7F0FB7C814604A77"]
 			id: "3F30B4A850E4FF6F"
+			rewards: [{
+				count: 3
+				id: "448349B202009D4E"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "53A53B958B390527"
 				item: "minecraft:glowstone_dust"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 9.0d
 			y: 4.5d
 		}
 		{
@@ -227,7 +239,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["25186DEFDB6612E5"]
@@ -244,7 +256,161 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5EC57436CEC62EA8"]
+			id: "5EE7AB625F7932C9"
+			rewards: [{
+				count: 3
+				id: "72FAD7C5E8CDC032"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AED354D4E1577DE"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["27A519CC633F9F94"]
+			id: "4E6E8139E03C4D83"
+			tasks: [{
+				id: "1C7C8A70D495E7F4"
+				item: "gtceu:rubber_plate"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5EE7AB625F7932C9"
+				"4E6E8139E03C4D83"
+			]
+			id: "6AADD3F73268ADCA"
+			tasks: [{
+				id: "6E0A9D56432F4D72"
+				item: "gtceu:red_alloy_single_cable"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1952381C48372A9D"]
+			id: "5336F83561FB93E3"
+			rewards: [{
+				count: 5
+				id: "564ECD5BA2BC1C1D"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AB9283CBC62B285"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5336F83561FB93E3"]
+			id: "795797D2A3260BB9"
+			rewards: [{
+				count: 3
+				id: "31B5B7AB0664A0D5"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F05A97DBC6B7240"
+				item: "gtceu:wood_plate"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"27A519CC633F9F94"
+				"795797D2A3260BB9"
+			]
+			id: "5C7E0838A5957585"
+			rewards: [{
+				count: 3
+				id: "28AC80359B643B73"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37483B523F3B52DB"
+				item: "gtceu:resin_circuit_board"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C7E0838A5957585"]
+			id: "341B786914DF2F7A"
+			rewards: [{
+				count: 3
+				id: "62D5382C3429DED6"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "030E698291CD947A"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["27A519CC633F9F94"]
+			id: "75801815CA8D3813"
+			rewards: [{
+				count: 3
+				id: "3645C7821BA3C403"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C4FF6D9CF7ACEFD"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5FCCFA9B01273571"
+				"341B786914DF2F7A"
+				"6AADD3F73268ADCA"
+				"75801815CA8D3813"
+			]
+			id: "2D16262B69E79E9E"
+			rewards: [{
+				count: 3
+				id: "065630F4F94AA57D"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7217BB8611E9F54F"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 6.75d
 		}
 	]
 	title: "Tier 0: ULV-青铜时代"

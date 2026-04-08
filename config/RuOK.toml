@@ -8,15 +8,15 @@ whiteListedEntities = ["minecraft:player"]
 BlackTagListEntity = []
 WhiteTagListEntity = []
 isAlwaysShowItemCount = true
-startTime = 398.362
-Hud = false
+startTime = 321.895
+Hud = true
 HudRXTX = false
-HudFPS = false
-HudCPU = false
-HudGPU = false
-HudRAM = false
+HudFPS = true
+HudCPU = true
+HudGPU = true
+HudRAM = true
 HudPlayerPos = false
-HudServer = false
+HudServer = true
 HudCameraTarget = false
 Mood = false
 MaxParticleDistance = 128
@@ -43,7 +43,7 @@ WhiteBlockEntities = []
 MaxBlockEntityCount = 64
 BlockEntityDistance = 256
 onCull = true
-VisibleCulling = true
+VisibleCulling = false
 EntityRenderPerformance = false
 CullMode = "COMPATIBILITY"
 ParticleFastCollision = false
@@ -53,15 +53,15 @@ CullParticle = true
 
 [[HudTextConfig]]
 key = "ruok.options.hud.fps.info"
-x = 4
-y = 4
-enabled = false
+x = 500
+y = 0
+enabled = true
 
 [[HudTextConfig]]
 key = "ruok.options.hud.system.info"
-x = 4
-y = 17
-enabled = false
+x = 475
+y = 15
+enabled = true
 
 [[HudTextConfig]]
 key = "ruok.options.hud.playerpos.info"
@@ -71,9 +71,9 @@ enabled = false
 
 [[HudTextConfig]]
 key = "ruok.options.hud.server.info"
-x = 4
-y = 43
-enabled = false
+x = 500
+y = 30
+enabled = true
 
 [[HudTextConfig]]
 key = "ruok.options.hud.cameratarget.info"
