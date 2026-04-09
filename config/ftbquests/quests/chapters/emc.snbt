@@ -7,21 +7,43 @@
 	id: "63054ADC1C202AE6"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "7A0E45BD432D7C3A"
-		rewards: [{
-			count: 3
-			id: "5222CFB5FC84AAA1"
-			item: "kubejs:copper_coin"
-			type: "item"
-		}]
-		tasks: [{
-			id: "727E098F827C0B32"
-			item: "projectexpansion:basic_power_flower"
-			type: "item"
-		}]
-		x: 0.5d
-		y: -1.5d
-	}]
+	quests: [
+		{
+			id: "7A0E45BD432D7C3A"
+			rewards: [{
+				count: 3
+				id: "5222CFB5FC84AAA1"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "727E098F827C0B32"
+				item: "projectexpansion:basic_power_flower"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			id: "79C1F98C6E30527E"
+			tasks: [{
+				id: "55FB92ABA34DB7BD"
+				item: "projectexpansion:dark_power_flower"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "552A1F1DBD3A93CD"
+			tasks: [{
+				id: "6D0943B9C1221C8F"
+				item: "projectexpansion:red_power_flower"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+	]
 	title: "EMC 生产！"
 }

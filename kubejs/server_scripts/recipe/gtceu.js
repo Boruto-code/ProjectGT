@@ -26,6 +26,13 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.IV])
         .duration(1)
 
+    gtceu.matter_forge_mk1("kubejs:dark_matter")
+        .notConsumable("#gtceu:circuits/ulv")
+        .itemInputs(Item.of("projecte:aeternalis_fuel", 64), Item.of("kubejs:compressed_diamond_block", 64))
+        .itemOutputs(Item.of("projecte:dark_matter", 8))
+        .EUt(GTValues.VA[GTValues.LV])
+        .duration(100)
+
     gtceu.world_collection("kubejs:overworld_0")
         .notConsumable("kubejs:world_fragment_overworld")
         .circuit(0)
@@ -322,10 +329,5 @@ ServerEvents.recipes(event => {
 
 
 
-    gtceu.matter_forge_mk1("kubejs:dark_matter")
-        .notConsumable("#gtceu:circuits/ulv")
-        .itemInputs(Item.of("projecte:aeternalis_fuel", 64), Item.of("kubejs:compressed_diamond_block", 64))
-        .itemOutputs("projecte:dark_matter")
-        .EUt(GTValues.VA[GTValues.LV])
-        .duration(200)
+    
 })

@@ -10,6 +10,7 @@
 	quests: [
 		{
 			dependencies: ["4590C4BCBE166AFD"]
+			description: ["手拿（高级）终端Shift+右键多方块控制器可以快速搭建多方块结构！"]
 			icon: "gtceu:bronze_ingot"
 			id: "1952381C48372A9D"
 			rewards: [{
@@ -19,7 +20,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "手拿（高级）终端Shift+右键多方块控制器可以快速搭建多方块结构！"
+			subtitle: "青铜与蒸汽的时代。"
 			tasks: [{
 				id: "702756D9D387E4F4"
 				title: "开始格雷科技！"

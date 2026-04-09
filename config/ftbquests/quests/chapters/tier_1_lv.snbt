@@ -7,6 +7,20 @@
 	id: "206BE0D14F691D0E"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["2D16262B69E79E9E"]
+		icon: "gtceu:steel_ingot"
+		id: "739CB5A0FC58F896"
+		shape: "hexagon"
+		size: 1.5d
+		subtitle: "钢铁与电的时代。"
+		tasks: [{
+			id: "03300D1A5B70A01C"
+			title: "LV"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: -0.5d
+	}]
 	title: "Tier 1: LV-钢铁雄心"
 }
