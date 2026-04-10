@@ -9,6 +9,7 @@ logs
 modernfix
 PCL
 ProjectGT-natives
+resourcepacks
 ProjectGT.jar
 ProjectGT.json
 rhino.local.properties
@@ -19,5 +20,7 @@ usercache.json
 usernamecache.json
 xaero
 XaeroWaypoints_BACKUP240807
+
+config/skyblockbuilder/data/dimensions.txt
 
 !config/skyblockbuilder

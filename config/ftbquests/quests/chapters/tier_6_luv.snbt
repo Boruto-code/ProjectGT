@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_6_luv"
+	group: "050B17593F47B38F"
+	icon: "gtceu:rhodium_plated_palladium_ingot"
+	id: "451C72B77FEA8FE7"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tier 6: LuV - 巨型工厂"
+}

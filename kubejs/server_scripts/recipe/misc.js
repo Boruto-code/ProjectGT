@@ -6,6 +6,7 @@ ServerEvents.recipes(event => {
     event.replaceInput({input: "gtceu:certus_quartz_gem"}, "gtceu:certus_quartz_gem", "ae2:certus_quartz_crystal")
     event.replaceOutput({output: "gtceu:certus_quartz_gem"}, "gtceu:certus_quartz_gem", "ae2:certus_quartz_crystal")
 })
+
 BlockEvents.rightClicked("kubejs:dimensional_teleporter", event => {
     if (event.player.getHeldItem("main_hand") == null && event.player.getHeldItem("off_hand") == null){
         let name = event.player.getName().getString()

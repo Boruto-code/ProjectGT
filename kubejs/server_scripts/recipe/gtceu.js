@@ -1,4 +1,32 @@
 ServerEvents.recipes(event => {
+    event.shaped(
+        Item.of("kubejs:dark_matter_casing", 2),
+        [
+            "ACA",
+            "ABA",
+            "ADA"
+        ],
+        {
+            A: "projecte:dark_matter",
+            B: "projecte:dark_matter_block",
+            C: "#gtceu:tools/crafting_hammers",
+            D: "#forge:tools/wrenches"
+        }
+    )
+
+    event.shaped(
+        "gtceu:matter_forging_machine_mk1",
+        [
+            " B ",
+            "BAB",
+            " B "
+        ],
+        {
+            A: "kubejs:dark_matter_casing",
+            B: "gtceu:lv_robot_arm"
+        }
+    )
+
     const gtceu = event.recipes.gtceu
 
     gtceu.compressor("kubejs:compress_firebricks")
@@ -26,9 +54,15 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.IV])
         .duration(1)
 
-    gtceu.matter_forge_mk1("kubejs:dark_matter")
+    gtceu.alloy_smelter("kubejs:alloy_smelter/dark_matter")
+        .itemInputs(Item.of("kubejs:compressed_diamond_block", 8), Item.of("projecte:aeternalis_fuel_block", 8))
+        .itemOutputs("projecte:dark_matter")
+        .EUt(GTValues.VA[GTValues.ULV])
+        .duration(300)
+
+    gtceu.matter_forge_mk1("kubejs:matter_forge/dark_matter")
         .notConsumable("#gtceu:circuits/ulv")
-        .itemInputs(Item.of("projecte:aeternalis_fuel", 64), Item.of("kubejs:compressed_diamond_block", 64))
+        .itemInputs(Item.of("projecte:aeternalis_fuel", 8), Item.of("kubejs:compressed_diamond_block", 64))
         .itemOutputs(Item.of("projecte:dark_matter", 8))
         .EUt(GTValues.VA[GTValues.LV])
         .duration(100)
@@ -326,8 +360,4 @@ ServerEvents.recipes(event => {
             Item.of("gtceu:raw_platinum", 4), Item.of("gtceu:raw_palladium", 4))
         .EUt(GTValues.VA[GTValues.EV])
         .duration(400)
-
-
-
-    
 })
