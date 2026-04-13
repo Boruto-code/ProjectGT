@@ -89,6 +89,8 @@ mekanism:ore_uranium_buried_retrogen
 mekanism:ore_uranium_small
 mekanism:ore_uranium_small_retrogen
 mekanism:salt
+mekanism_extras:end_naquadah_ore
+mekanism_extras:naquadah_ore
 minecraft:acacia
 minecraft:amethyst_geode
 minecraft:azalea_tree
