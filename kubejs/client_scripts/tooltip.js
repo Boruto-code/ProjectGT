@@ -25,6 +25,10 @@ ItemEvents.tooltip(event => {
         text.add(1, Text.of("§7密度趋近于奇点"))
         text.add(2, Text.darkPurple("UXV级电路"))
     })
+    event.addAdvanced("kubejs:cosmic_assembly", (item, advanced, text) => {
+        text.add(1, Text.of("§7压缩星海"))
+        text.add(2, Text.darkPurple("UIV级电路"))
+    })
     event.addAdvanced("kubejs:cosmic_processor", (item, advanced, text) => {
         text.add(1, Text.of("§7手握星辰"))
         text.add(2, Text.darkPurple("UEV级电路"))
@@ -60,5 +64,21 @@ ItemEvents.tooltip(event => {
     event.addAdvanced("kubejs:optical_processor", (item, advanced, text) => {
         text.add(1, Text.of("§7超高效光子载运"))
         text.add(2, Text.gold("UV级电路"))
+    })
+    event.addAdvanced("kubejs:bioware_mainframe", (item, advanced, text) => {
+        text.add(1, Text.of("§7菌群意识网络"))
+        text.add(2, Text.darkGreen("UEV级电路"))
+    })
+    event.addAdvanced("kubejs:bioware_computer", (item, advanced, text) => {
+        text.add(1, Text.of("§7金属之间布满了黏菌"))
+        text.add(2, Text.darkGreen("UHV级电路"))
+    })
+    event.addAdvanced("kubejs:bioware_assembly", (item, advanced, text) => {
+        text.add(1, Text.of("§7似乎能听到窃窃私语"))
+        text.add(2, Text.darkGreen("UV级电路"))
+    })
+    event.addAdvanced("kubejs:bioware_processor", (item, advanced, text) => {
+        text.add(1, Text.of("§7粘稠的有机浆液附着于表面"))
+        text.add(2, Text.darkGreen("ZPM级电路"))
     })
 })
