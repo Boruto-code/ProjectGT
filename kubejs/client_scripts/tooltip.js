@@ -46,7 +46,7 @@ ItemEvents.tooltip(event => {
         text.add(2, Text.lightPurple("UEV级电路"))
     })
     event.addAdvanced("kubejs:exotic_processor", (item, advanced, text) => {
-        text.add(1, Text.of("§7强磁体半导体电路"))
+        text.add(1, Text.of("§7强磁半导体电路"))
         text.add(2, Text.lightPurple("UHV级电路"))
     })
     event.addAdvanced("kubejs:optical_mainframe", (item, advanced, text) => {
