@@ -81,4 +81,21 @@ ItemEvents.tooltip(event => {
         text.add(1, Text.of("§7粘稠的有机浆液附着于表面"))
         text.add(2, Text.darkGreen("ZPM级电路"))
     })
+
+    event.addAdvanced("mekanism:basic_control_circuit", (item, advanced, text) => {
+        text.add(1, Text.of("§7让一块石头学会思考"))
+        text.add(2, Text.white("MV级电路"))
+    })
+    event.addAdvanced("mekanism:advanced_control_circuit", (item, advanced, text) => {
+        text.add(1, Text.of("§7更加优秀的处理器"))
+        text.add(2, Text.white("HV级电路"))
+    })
+    event.addAdvanced("mekanism:elite_control_circuit", (item, advanced, text) => {
+        text.add(1, Text.of("§7再精密一点"))
+        text.add(2, Text.white("EV级电路"))
+    })
+    event.addAdvanced("mekanism:ultimate_control_circuit", (item, advanced, text) => {
+        text.add(1, Text.of("§7超级计算机？"))
+        text.add(2, Text.white("IV级电路"))
+    })
 })

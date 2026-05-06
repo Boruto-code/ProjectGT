@@ -67,6 +67,27 @@
 			x: 2.0d
 			y: 0.0d
 		}
+		{
+			can_repeat: true
+			dependencies: ["4273F5B197388EB1"]
+			icon: "gtceu:duct_tape"
+			id: "6A5558A6BB4361CA"
+			rewards: [{
+				count: 64
+				id: "4DAB8E3909B41E51"
+				item: "gtceu:duct_tape"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3FE6A86AD208FAD9"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			title: "维护仓专用胶带"
+			x: 0.0d
+			y: 1.5d
+		}
 	]
 	title: "商店"
 }

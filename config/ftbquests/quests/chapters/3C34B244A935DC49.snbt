@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3C34B244A935DC49"
+	group: "752D14ED0AA9D158"
+	icon: "gtceu:luv_matter_annihilation_machine"
+	id: "3C34B244A935DC49"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "6E8286B2F6287E69"
+		tasks: [{
+			id: "35A847BB6986280F"
+			item: "gtceu:lv_steam_turbine"
+			type: "item"
+		}]
+		x: -1.0d
+		y: 0.0d
+	}]
+	title: "发电机"
+}

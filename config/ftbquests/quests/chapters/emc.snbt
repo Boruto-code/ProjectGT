@@ -10,12 +10,6 @@
 	quests: [
 		{
 			id: "7A0E45BD432D7C3A"
-			rewards: [{
-				count: 3
-				id: "5222CFB5FC84AAA1"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
 			tasks: [{
 				id: "727E098F827C0B32"
 				item: "projectexpansion:basic_power_flower"

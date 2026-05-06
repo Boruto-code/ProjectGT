@@ -43,6 +43,18 @@
     {
       "item": "projecte:watch_of_flowing_time",
       "emc": 568512
+    },
+    {
+      "item": "gtceu:wrought_iron_ingot",
+      "emc": 2376
+    },
+    {
+      "item": "projecte:transmutation_tablet",
+      "emc": 2228488
+    },
+    {
+      "item": "minecraft:charcoal",
+      "emc": 32
     }
   ]
 }

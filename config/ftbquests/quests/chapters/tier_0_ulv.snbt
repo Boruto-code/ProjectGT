@@ -312,6 +312,12 @@
 				"4E6E8139E03C4D83"
 			]
 			id: "6AADD3F73268ADCA"
+			rewards: [{
+				count: 3
+				id: "3D8065C7F5ABAD12"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6E0A9D56432F4D72"
 				item: "gtceu:red_alloy_single_cable"

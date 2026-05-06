@@ -7,20 +7,58 @@
 	id: "206BE0D14F691D0E"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["2D16262B69E79E9E"]
-		icon: "gtceu:steel_ingot"
-		id: "739CB5A0FC58F896"
-		shape: "hexagon"
-		size: 1.5d
-		subtitle: "钢铁与电的时代。"
-		tasks: [{
-			id: "03300D1A5B70A01C"
-			title: "LV"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: -0.5d
-	}]
+	quests: [
+		{
+			dependencies: ["2D16262B69E79E9E"]
+			icon: "gtceu:steel_ingot"
+			id: "739CB5A0FC58F896"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "钢铁与电的时代。"
+			tasks: [{
+				id: "03300D1A5B70A01C"
+				title: "LV"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["739CB5A0FC58F896"]
+			id: "32E635622D498CF3"
+			rewards: [{
+				count: 5
+				id: "023AB450256DAF26"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			subtitle: "虽然不使用蒸汽作为动力，但蒸汽还是优秀的发电原料。"
+			tasks: [{
+				id: "2B48FF3AA042D0BD"
+				item: "gtceu:bronze_large_boiler"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["739CB5A0FC58F896"]
+			id: "4273F5B197388EB1"
+			rewards: [{
+				count: 3
+				id: "5DF599891E698499"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "可以在商店通过1铜币购买胶带！"
+			tasks: [{
+				id: "3F5D268AB62360E9"
+				item: "gtceu:maintenance_hatch"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+	]
 	title: "Tier 1: LV-钢铁雄心"
 }
